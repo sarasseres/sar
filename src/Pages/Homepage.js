@@ -70,7 +70,7 @@ const Homepage = () => {
           <div className="resources">
             <h1>Resources</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              Lorens ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud ullamco laboris nisi ea commodo
               consequat. Duis aute irure dolor in reprehenderit in voluptate
