@@ -1,0 +1,508 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+*, 
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+body {
+  font-family: WorkSans,Arial,sans-serif;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  height: 2px;
+  margin: 0 0 10px;
+  padding: 17px 1025px 35px 213px;
+}
+
+ img {
+    width: 33px;
+    height: 33px;
+    margin: 0 13px 0 0;
+    object-fit: contain;
+}
+
+.header  p {
+    width: 82px;
+    height: 14px;
+    margin: 0 0 0 13px;
+    font-family: WorkSans;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+  
+}
+
+.header .fellas {
+  width: 10px;
+  margin: 14px 35px 0 13px;
+  font-family: WorkSans;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+/* end header  */
+
+/* Homepage first weekend from home */
+
+.background-1 {
+    background: url('./Assetss/background.svg') no-repeat;
+    background-color:#eebece;
+    background-size: 100%;
+    width: 100%; 
+    height: 731px;
+    padding: 0 0px 113px;
+    object-fit: contain;
+    padding-top: 3rem; 
+}
+
+.weekend {
+    width: 721px;
+    height: 51px;
+    margin: 30px auto;
+    font-size: 62px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1,5;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;  
+}
+
+.background-1 h4 {
+    width: 338px;
+    height: 25px;
+    margin: 40px auto;;
+    font-family: WorkSans;
+    font-size: 21px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    
+}
+.background-1 .avatar-1 {
+    width: 184px;
+    height: 305px;
+    margin: 30px 20px 0 30px;
+    object-fit: contain;  
+}
+
+/* Homepage 2 definition*/
+
+.background-2 { 
+    padding: 0 2px 20px 20px;
+    background-color: #eebece;  
+}
+
+.background-2 img {
+    float: right;
+    width: 159px;
+    height: 158px;
+    margin-top: 100px;
+    object-fit: contain;
+}
+
+.text p {
+  width: 619px;
+  height: 160px;
+  font-family: WorkSans;
+  font-size: 21px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.52;
+  letter-spacing: -0.75px;
+  text-align: right;
+  color: #000000;
+  clear: both;
+  margin: auto;
+ 
+  }
+
+span.code  {
+   display: block;
+    width: 163px;
+    height: 25px;
+    margin: auto;
+    font-family: WorkSans;
+    font-size: 21px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: white;  
+    clear: both;
+    margin-right: 30rem;
+}
+
+.text img {
+    width: 89px;
+    height: 89px;
+    margin: 10px 2px 0 0;
+    object-fit: contain;
+    float: left;  
+}
+
+#definition {
+  font-weight: bold;
+  color:  #0b24fb;  
+}
+
+.text h2 {
+    width: 188px;
+    height: 38px;
+    margin: 84px auto;
+    text-shadow: 0 20px 30px rgba(249, 131, 171, 0.7);
+    font-family: WorkSans;
+    font-size: 32px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+  
+}
+  
+/* homepage 3 testimonial card*/
+
+.homepagess {
+  background: black;
+
+}
+
+.cardparent{
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  width: 500px;
+  margin: 0px 20px 20px 20px;
+  padding: 10px 0 10px 10px;
+  margin: auto;    
+}
+
+.blukicks-card {
+  width: 250px;
+  min-height: 150px;
+  margin: 0px 10px 10px 10px;
+  padding: 20px;
+  box-shadow:  rgba(249, 131, 171, 0.2);
+  background-color: white;
+ 
+}
+.blukicks-card h3 {
+  height: 38px;
+  margin: 0 56px 20px 0;
+  font-family: WorkSans;
+  font-size: 32px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  
+}
+.blukicks-card p {
+    background-color: white; 
+}
+
+ /*POV Resoursece  */
+
+.pov h1 {    
+    height: 38px;
+    margin: 50px auto;
+    font-family: WorkSans;
+    font-size: 32px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;    
+}
+
+.pov p {
+    width: 619px;
+    height: 135px;
+    margin: 50px auto;
+    font-family: WorkSans;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.64px;
+    text-align: center;
+    color: white;
+    
+
+}
+
+
+.resources h1 {
+  width: 68px;
+  height: 38px;
+  margin: 50px auto;
+  font-family: WorkSans;
+  font-size: 32px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white; 
+}
+
+.resources p {
+  width: 619px;
+  height: 135px;
+  margin: 50px auto;
+  font-family: WorkSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.64px;
+  text-align: center;
+  color:white;
+  
+}
+
+
+/* card help and tips */
+
+.card-helpntips h1 {
+  margin: 10px 10px 30px 10px;
+  font-family: WorkSans;
+  font-size: 32px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+
+}
+
+.cardhelpandtips { 
+    margin: 20px auto;
+}
+  
+
+.cardleft {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: 0px 10px 20px 10px;
+  padding: 10px 0 10px 10px; 
+  position: relative;
+  margin: auto;
+
+}
+
+.cardleft img {
+  width: 250px;
+  height: 200px;
+  margin: 30px 10px 10px 10px;
+  padding: 10px 0 0;
+  object-fit: contain;
+     
+  
+     
+}
+
+.cardleft p {
+    width: 205px;
+    height: 50px;
+    padding: 17px 20px 17px 25px;
+    opacity: 0.1;
+    margin: 50px auto;
+    background-color: transparent;
+    position: absolute;
+    top: 170px;
+    height: 38px; 
+    font-family: WorkSans;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    opacity: 0.5;
+    background-color: rgba(83, 51, 237, 1);
+    color: white;
+    margin-left: 10px;
+   
+    
+}
+    
+/* homepage 4 you are set */
+.youreset { 
+  background: url(./Assetss/astronott.png) no-repeat;
+  background-position: left bottom;
+  background-size: contain;
+  height: 300px;
+}
+
+ .youreset h1 {
+    height: 38px;   
+    font-family: WorkSans;
+    font-size: 32px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+
+  
+   
+ 
+ }
+ .youreset p {
+    width: 619px;
+    height: 54px;
+    margin: 20px auto;
+    font-family: WorkSans;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    color: white;
+   
+ }
+
+ .footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 22px 50px 21px;
+  background-color:#0b24fb;
+ }
+
+ .footer p{
+    width: 98px;
+    height: 19px;
+    margin: 2px 70px 3px 0;
+    font-family: WorkSans;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+  }
+
+  .button {
+      display: block;
+      width: 126px;
+      height: 24px;
+      margin: 0 0 0 716px;
+      padding: 3px 10px 5px;
+      border-radius: 12px;
+      border: solid 2px white;
+      background: transparent;
+     
+    
+  }
+  
+/* media query */
+  @media screen and (max-width: 768px) {
+    .cardleft {
+      flex-direction: column;
+    }
+    .weekend {
+      width: 500px;
+      height: 102px;
+    }
+    .text p {
+      width: 500px;  
+    }
+    span .code {
+      margin: auto;
+    }
+  .pov h1 {
+    width: 68px;
+    height: 38px;
+    margin: 20px 275px 30px 32px;
+  
+}
+
+.pov p {
+  width: 311px;
+  height: 135px;
+  margin: 30px 32px 67px;
+  font-family: WorkSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.57px;
+}
+
+.resources h1 {
+  width: 68px;
+  height: 38px;
+  margin: 20px 275px 30px 32px;
+  
+}
+
+.resources p {
+  width: 311px;
+  height: 135px;
+  margin: 30px 32px 67px;
+  font-family: WorkSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.57px;
+}
+    
+.youreset {
+  margin: auto;
+}
+
+.footer {
+  justify-content: center;
+  align-items: center;
+}
+  } 
+
+
+
+ 
