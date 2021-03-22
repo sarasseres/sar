@@ -1,19 +1,17 @@
-import './App.css';
 import React from "react";
-import "./Assetss/icons/css/all.min.css";
+
 
 
 
 
 // Component
- import Homepage from './Pages/Homepage';
 
+ import Login from "./Pages/Login"
 
 function App() {
   return (
     <div className="App">
-      <Homepage/> 
- 
+       <Login/> 
     </div>
   );
 }

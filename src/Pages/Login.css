@@ -1,0 +1,105 @@
+.form-center {
+    overflow: hidden;
+    /* height: 100% !important; */
+    color:#ffffff !important;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7%;
+    background:	#161688;
+}
+
+    h1 {
+            font-weight: 700;
+            margin: 0 0 15px 25px !important;
+            color: #DDBC78;
+            line-height: 32px;
+            flex: auto;
+            cursor: pointer;
+            text-align: left !important;
+            font-size: 25px;
+    }
+    input{
+        border: 2px solid transparent;
+    }
+    /* .errorLogin {
+        border: 2px solid rgb(253, 82, 82);
+            border: 2px solid rgb(253, 82, 82);
+        } */
+    
+    button {
+        margin-top: 10%;
+        margin-bottom: 10px;
+        padding: 2% 10%;
+        color: #090c04ce !important;
+    }
+    .radioCenter, .radio1 {
+        margin-right: 0% !important;
+    }
+    .form-center p a {
+              font-weight: 400;
+                  text-decoration: none;
+                  font-weight: 700;
+                  color: white;
+                  /* opacity: 0.5; */
+    }
+
+    .fa-envelope 
+    {
+      margin-left: -20px;
+      color: grey;
+    }
+    .fa-lock-open {
+      margin-left: -20px;
+      color: grey;
+    }
+
+/* Side Image */
+.parentLogin {
+    display: flex;
+    overflow: auto;
+    height: 100% !important;
+ 
+    width: 100%;
+   
+  }
+  .sideLogin {
+    width: 30%;
+    /* height: 100%; */
+    
+  }
+  .sideImage {
+    flex: auto;
+    background: url('../Assetss/img/loginimg.svg') no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* position: relative;
+    z-index: 1; */
+    background-color: #ffffff;
+  }
+  .radio2 {
+    margin-left: 60px;
+  }
+  .joinus {
+    margin-top: 15px !important;
+  }
+  .loginButton {
+    width: 100px;
+    height: 40px;
+    padding: 0 !important;
+    /* margin-top: 10px !important; */
+  }
+  
+
+
+  
+
+
+  @media only screen and (max-width: 778px) {
+    .form-center {
+      height: 100%;
+      width: 100%;
+    }
+  
+  }
